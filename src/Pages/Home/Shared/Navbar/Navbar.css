@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&family=Lobster&display=swap');
+/* 
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive; 
+*/
+
+.nameTitle {
+    font-family: 'Lobster', cursive; 
+}
