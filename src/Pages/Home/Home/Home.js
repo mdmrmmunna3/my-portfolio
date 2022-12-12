@@ -1,17 +1,16 @@
 import React from 'react';
-import { ContactUs } from '../Contact/Contact';
 
+import './Home.css';
 import Header from '../Header/Header';
+import Projects from '../Projects/Projects';
+import { ContactMe } from '../Contact/Contact';
 
 const Home = () => {
     return (
-        <div 
-        // style={{
-        //     backgroundColor: '#654c85'
-        // }}
-        >
+        <div className='homepart' >
             <Header></Header>
-            <ContactUs></ContactUs>
+            <Projects></Projects>
+            <ContactMe></ContactMe>
         </div>
     );
 };
