@@ -57,11 +57,11 @@ const Footer = () => {
                     <div className="flex justify-center pt-4 space-x-4 lg:pt-0 lg:col-end-13" data-aos="zoom-in-down"
                         data-aos-easing="ease-in-cubic"
                         data-aos-duration="1500">
-                        <Link className=' text-2xl dark:bg-violet-400 dark:text-gray-900' to="/"><FaFacebook></FaFacebook></Link>
-                        <Link className=' text-2xl dark:bg-violet-400 dark:text-gray-900' to="/"><FaGithub></FaGithub></Link>
-                        <Link className=' text-2xl dark:bg-violet-400 dark:text-gray-900' to="/"><FaTwitter></FaTwitter></Link>
-                        <Link className=' text-2xl dark:bg-violet-400 dark:text-gray-900' to="/"><FaYoutube></FaYoutube></Link>
-                        <Link className=' text-2xl dark:bg-violet-400 dark:text-gray-900' to="/"><FaInstagram></FaInstagram></Link>
+                        <Link className=' text-2xl text-blue-500' to="/"><FaFacebook></FaFacebook></Link>
+                        <Link className=' text-2xl text-gray-600' to="/"><FaGithub></FaGithub></Link>
+                        <Link className=' text-2xl text-blue-500' to="/"><FaTwitter></FaTwitter></Link>
+                        <Link className=' text-2xl text-red-700' to="/"><FaYoutube></FaYoutube></Link>
+                        <Link className=' text-2xl text-pink-600' to="/"><FaInstagram></FaInstagram></Link>
                     </div>
                 </div>
             </footer>

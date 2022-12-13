@@ -20,7 +20,7 @@ export const ContactMe = () => {
 
 
     return (
-        <div id='contact' className='mt-16'>
+        <div id='contact' className='pt-16 homepart'>
             <div className='text-xl lg:text-5xl text-center nameTitle my-12 text-orange-600' data-aos="fade-up"
                 data-aos-easing="ease-in-cubic"
                 data-aos-duration="1500"

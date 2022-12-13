@@ -2,7 +2,7 @@ import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import resume from '../../../assets/MD MUSTAFIJUR RAHMAN MUNNA-Resume (1) (1).pdf'
 import img from '../../../assets/output-onlinegiftools (2).gif'
-import "./Header.css"
+
 
 import 'aos';
 
