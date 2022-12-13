@@ -1,14 +1,14 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
 import resume from '../../../assets/MD MUSTAFIJUR RAHMAN MUNNA-Resume (1) (1).pdf'
-import img from '../../../assets/70242-man-working.gif'
-import { Link } from 'react-router-dom';
+import img from '../../../assets/output-onlinegiftools (2).gif'
+import "./Header.css"
 
 import 'aos';
 
 const Header = () => {
     return (
-        <section className='pt-5'>
+        <section  className='pt-5'>
             <div className=" ">
 
                 <div className=" flex justify-between  mx-12 flex-col lg:flex-row-reverse">
@@ -16,12 +16,14 @@ const Header = () => {
                         data-aos-easing="ease-in-cubic"
                         data-aos-duration="1000" >
                         <img src={img} className="rounded-lg " alt='' />
+                        
                     </div>
 
                     <div data-aos="fade-right"
                         data-aos-easing="ease-in-cubic"
                         data-aos-duration="1000" >
-                        <h1 className='lg:text-3xl text-xl' style={{ paddingTop: '3rem', margin: 'auto 0', fontWeight: 'normal' }}>
+                        <h1 className='lg:text-3xl text-sm' style={{ paddingTop: '3rem', margin: 'auto 0', fontWeight: 'normal' }}>
+                            <span className='mr-2 text-white'>I'M</span>
                             <span style={{ color: 'blueviolet', fontWeight: 'bold' }}>
 
                                 <Typewriter
@@ -54,8 +56,8 @@ const Header = () => {
                             </span>
                         </h1>
                         <div className='mt-4'>
-                            <a href={resume} className="btn btn-outline homepart mr-5 text-white" download='MD MUSTAFIJUR RAHMAN MUNNA-Resume '>Download Resume</a>
-                            <Link href='/contact' className="btn btn-outline homepart text-white">Contact Me</Link>
+                            <a href={resume} className="btn btn-outline homepart mr-5 text-white mb-2" download='MD MUSTAFIJUR RAHMAN MUNNA-Resume '>Download Resume</a>
+                            <a href='#contact' className="btn btn-outline homepart text-white">Contact Me</a>
                         </div>
                     </div>
 

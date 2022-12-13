@@ -53,10 +53,15 @@ const Projects = () => {
 
     ]
     return (
-        <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-6 mx-6'>
-            {
-                projects.map(project => <ProjectsDetails key={project._id} project={project}></ProjectsDetails>)
-            }
+        <div>
+            <h2 className='text-xl lg:text-5xl text-center nameTitle my-12 text-orange-600' data-aos="fade-up"
+                data-aos-easing="ease-in-cubic"
+                data-aos-duration="1500"><progress className="progress lg:w-60 w-20 bg-orange-600"></progress><span>Proj<span className='text-violet-600'>ects</span></span><progress className="progress lg:w-60 w-20 bg-violet-600"></progress></h2>
+            <div className='grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-5 mt-6 mx-6'>
+                {
+                    projects.map(project => <ProjectsDetails key={project._id} project={project}></ProjectsDetails>)
+                }
+            </div>
         </div>
     );
 };
