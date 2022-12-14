@@ -3,6 +3,7 @@ import AboutMe from "../../Pages/AboutMe/AboutMe";
 import Blog from "../../Pages/Blog/Blog";
 import { ContactMe } from "../../Pages/Home/Contact/Contact";
 import Home from "../../Pages/Home/Home/Home";
+import ProjectDetails from "../../Pages/Home/Projects/ProjectDetails";
 import Projects from "../../Pages/Home/Projects/Projects";
 import Skills from "../../Pages/Skills/Skills";
 
@@ -24,6 +25,11 @@ const router = createBrowserRouter([
             {
                 path: '/projects',
                 element: <Projects></Projects>
+            },
+            {
+                path: '/project/:id',
+                element: <ProjectDetails></ProjectDetails>,
+                
             },
             
             {

@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import './ProjectsDetails.css';
 
 const ProjectsDetails = ({ project }) => {
-    const { img, name, liveSite, clienCode, serverCode ,id} = project
+    const { img, name, liveSite, clientCode, serverCode ,id} = project
     return (
         <div data-aos="zoom-in-down"
             data-aos-easing="ease-in-cubic"
@@ -14,10 +14,10 @@ const ProjectsDetails = ({ project }) => {
                     <h2 className="card-title text-white">{name}</h2>
 
                     <div className="card-actions justify-start">
-                        <a href={clienCode} target="_blank" className="btn btn-outline homepart text-white">Client Code</a>
+                        <a href={clientCode} target="_blank" className="btn btn-outline homepart text-white">Client Code</a>
                         <a href={liveSite} target="_blank" className="btn btn-outline homepart text-white">Live Site</a>
                         <a href={serverCode} target="_blank" className="btn btn-outline homepart text-white">Server Code</a>
-                        <Link to={id} className="btn btn-outline homepart text-white">Details</Link>
+                        <Link to={`/project/${id}`} className="btn btn-outline homepart text-white">Details</Link>
 
                     </div>
                 </div>
