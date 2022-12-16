@@ -19,7 +19,7 @@ const ProjectDetails = () => {
     console.log(project)
     return (
         <div className='homepart lg:p-12'>
-            <h2 className='text-xl lg:text-5xl text-center nameTitle my-12 text-orange-600' data-aos="fade-up"
+            <h2 className='text-xl lg:text-5xl text-center nameTitle py-12 text-orange-600' data-aos="fade-up"
                 data-aos-easing="ease-in-cubic"
                 data-aos-duration="1500"><progress className="progress lg:w-60 w-20 bg-orange-600"></progress><span>Projects<span className='text-violet-600'>Details</span></span><progress className="progress lg:w-60 w-20 bg-violet-600"></progress></h2>
 

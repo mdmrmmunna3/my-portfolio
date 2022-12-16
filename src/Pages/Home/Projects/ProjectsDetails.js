@@ -13,7 +13,7 @@ const ProjectsDetails = ({ project }) => {
                 <div className="card-body transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">
                     <h2 className="card-title text-white">{name}</h2>
 
-                    <div className="card-actions justify-start">
+                    <div className="card-actions lg:justify-start">
                         <a href={clientCode} target="_blank" className="btn btn-outline homepart text-white">Client Code</a>
                         <a href={liveSite} target="_blank" className="btn btn-outline homepart text-white">Live Site</a>
                         <a href={serverCode} target="_blank" className="btn btn-outline homepart text-white">Server Code</a>

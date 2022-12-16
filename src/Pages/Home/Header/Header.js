@@ -12,16 +12,16 @@ const Header = () => {
             <div className=" ">
 
                 <div className=" flex justify-between  mx-12 flex-col lg:flex-row-reverse">
-                    <div data-aos="fade-left"
+                    <div data-aos="zoom-in-down"
                         data-aos-easing="ease-in-cubic"
-                        data-aos-duration="1000" >
-                        <img src={img} className="rounded-lg " alt='' />
+                        data-aos-duration="1500" >
+                        <img src={img} className="rounded-lg lg:w-3/4" alt='' />
                         
                     </div>
 
                     <div data-aos="fade-right"
                         data-aos-easing="ease-in-cubic"
-                        data-aos-duration="1000" >
+                        data-aos-duration="1500" >
                         <h1 className='lg:text-3xl text-sm' style={{ paddingTop: '3rem', margin: 'auto 0', fontWeight: 'normal' }}>
                             <span className='mr-2 text-white'>I'M</span>
                             <span style={{ color: 'blueviolet', fontWeight: 'bold' }}>
@@ -39,7 +39,7 @@ const Header = () => {
                             </span>
                         </h1>
 
-                        <h1 className='lg:text-4xl text-xl' style={{ paddingTop: '3rem', margin: 'auto 0', fontWeight: 'normal' }}>
+                        <h1 className='lg:text-3xl text-xl' style={{ paddingTop: '3rem', margin: 'auto 0', fontWeight: 'normal' }}>
                             <span className='text-white'>I'M A</span> {' '}
                             <span style={{ color: 'blueviolet', fontWeight: 'bold' }}>
 

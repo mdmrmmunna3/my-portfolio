@@ -40,7 +40,7 @@ export const projects = [
         serverCode: "https://github.com/mdmrmmunna3/decency-fur-resale-server",
 
         features: {
-            features1: ` You will find various brands' used/resale watches in reasonable price`,
+            features1: ` You will find various brands' used/resale cars in reasonable price`,
             features2: ` 3 types of person can access this project `,
             features3: ` Email authentication with different roles. (admin, buyer, seller) `,
             features4: ` admin can see all buyers' and sellers' information. he can delete any users and buyers and others also he can provide an admin `,
