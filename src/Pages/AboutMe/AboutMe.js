@@ -7,7 +7,7 @@ const AboutMe = () => {
         <section className='pt-5 homepart'>
             <h2 className='text-xl lg:text-5xl text-center nameTitle my-12 text-orange-600' data-aos="fade-up"
                 data-aos-easing="ease-in-cubic"
-                data-aos-duration="1500"><progress className="progress lg:w-60 w-20 bg-orange-600"></progress><span>About<span className='text-violet-600'>Me</span></span><progress className="progress lg:w-60 w-20 bg-violet-600"></progress></h2>
+                data-aos-duration="1500"><progress className="progress lg:w-60 w-20 bg-orange-600"></progress><span className='hover:text-violet-600'>About</span><span className='text-violet-600 hover:text-orange-600'>Me</span><progress className="progress lg:w-60 w-20 bg-violet-600"></progress></h2>
 
             <div className=" flex justify-between items-center  mx-5 lg:mx-24 flex-col lg:flex-row-reverse">
 
