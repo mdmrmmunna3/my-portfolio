@@ -8,7 +8,7 @@ const Footer = () => {
             <footer className="p-6 dark:bg-gray-800 dark:text-gray-100">
                 <div className="container grid grid-cols-2 mx-auto gap-x-3 gap-y-8 sm:grid-cols-3 md:grid-cols-4" data-aos="zoom-in-down"
                     data-aos-easing="ease-in-cubic"
-                    data-aos-duration="1500">
+                    data-aos-duration="1000">
                     <div className="flex flex-col space-y-4">
                         <h2 className="font-medium text-xl">Categories</h2>
                         <div className="flex flex-col space-y-2 text-sm dark:text-gray-400">
@@ -56,7 +56,7 @@ const Footer = () => {
                     </div>
                     <div className="flex justify-center pt-4 space-x-4 lg:pt-0 lg:col-end-13" data-aos="zoom-in-down"
                         data-aos-easing="ease-in-cubic"
-                        data-aos-duration="1500">
+                        data-aos-duration="1000">
                         <Link className=' text-2xl text-blue-500' to="/"><FaFacebook></FaFacebook></Link>
                         <Link className=' text-2xl text-gray-600' to="/"><FaGithub></FaGithub></Link>
                         <Link className=' text-2xl text-blue-500' to="/"><FaTwitter></FaTwitter></Link>

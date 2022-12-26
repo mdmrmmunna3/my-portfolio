@@ -23,7 +23,7 @@ export const ContactMe = () => {
         <div id='contact' className='pt-16 homepart'>
             <div className='text-xl lg:text-5xl text-center nameTitle my-12 text-orange-600' data-aos="fade-up"
                 data-aos-easing="ease-in-cubic"
-                data-aos-duration="1500"
+                data-aos-duration="1000"
             ><progress className="progress lg:w-60 w-20 bg-orange-600" ></progress><span>Contact<span className='text-violet-600'>Me</span></span><progress className="progress lg:w-60 w-20 bg-violet-600"></progress>
             </div>
 
@@ -31,7 +31,7 @@ export const ContactMe = () => {
 
                 <div className='lg:ml-16 ml-6' data-aos="zoom-in-down"
                     data-aos-easing="ease-in-cubic"
-                    data-aos-duration="1500">
+                    data-aos-duration="1000">
 
                     <h1 className='text-2xl lg:text-4xl font-bold nameTitle text-orange-600'>Contact Info: </h1>
                     <div className='my-8'>

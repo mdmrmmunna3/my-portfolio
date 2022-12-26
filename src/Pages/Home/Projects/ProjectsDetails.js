@@ -7,7 +7,7 @@ const ProjectsDetails = ({ project }) => {
     return (
         <div data-aos="zoom-in-down"
             data-aos-easing="ease-in-cubic"
-            data-aos-duration="1500">
+            data-aos-duration="1000">
             <div className="card border shadow-2xl">
                 <figure><img className='imgStyle transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300' src={img} alt="projectImg"  /></figure>
                 <div className="card-body transition ease-in-out delay-150 hover:-translate-y-1 hover:scale-110  duration-300">

@@ -22,7 +22,7 @@ const Skills = () => {
         <div id='skills' className='py-16 text-center homepart'>
             <div data-aos="zoom-in-down"
                 data-aos-easing="ease-in-cubic"
-                data-aos-duration="1500" >
+                data-aos-duration="1000" >
                 <h1 className='text-2xl md:text-3xl lg:text-5xl mb-4 '><progress className="progress lg:w-60 w-20 bg-orange-600"></progress><span className='text-orange-600'>My</span> <span className='text-violet-600'>Skills</span><progress className="progress lg:w-60 w-20 bg-violet-600"></progress></h1>
 
             </div>
@@ -95,8 +95,10 @@ const Skills = () => {
 
                 </Swiper>
             </div>
+            <div id='container'></div>
         </div>
     );
 };
+
 
 export default Skills;

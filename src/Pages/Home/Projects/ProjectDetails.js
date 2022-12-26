@@ -6,7 +6,7 @@ import "swiper/css";
 import './ProjectDetails.css'
 import "swiper/css/navigation";
 import { Pagination, Autoplay, EffectCoverflow } from "swiper";
-import { PhotoProvider, PhotoView } from 'react-photo-view';
+// import { PhotoProvider, PhotoView } from 'react-photo-view';
 
 
 const ProjectDetails = () => {
@@ -27,7 +27,7 @@ const ProjectDetails = () => {
 
                 <div data-aos="fade-up-right"
                     data-aos-easing="ease-in-cubic"
-                    data-aos-duration="1500" className='w-full '>
+                    data-aos-duration="1000" className='w-full '>
 
                     <div className=''>
                         <Swiper
@@ -73,7 +73,7 @@ const ProjectDetails = () => {
 
                 <div className="card-body text-white" data-aos="zoom-in-down"
                     data-aos-easing="ease-in-cubic"
-                    data-aos-duration="1500">
+                    data-aos-duration="1000">
                     <h2 className="card-title text-xl lg:text-3xl text-violet-600">{name}</h2>
                     <span className='lg:text-2xl text-orange-600'>Features : </span>
 

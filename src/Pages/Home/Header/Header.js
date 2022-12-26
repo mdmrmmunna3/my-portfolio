@@ -5,23 +5,25 @@ import img from '../../../assets/output-onlinegiftools (2).gif'
 
 
 import 'aos';
+// import { AuthContext } from '../../../context/AuthProvider/AuthProvider';
 
 const Header = () => {
+    // const { setLoading } = useContext(AuthContext);
     return (
-        <section  className='pt-5'>
+        <section className='pt-5'>
             <div className=" ">
 
                 <div className=" flex justify-between  mx-12 flex-col lg:flex-row-reverse">
                     <div data-aos="zoom-in-down"
                         data-aos-easing="ease-in-cubic"
-                        data-aos-duration="1500" >
+                        data-aos-duration="1000" >
                         <img src={img} className="rounded-lg lg:w-3/4" alt='' />
-                        
+
                     </div>
 
                     <div data-aos="fade-right"
                         data-aos-easing="ease-in-cubic"
-                        data-aos-duration="1500" >
+                        data-aos-duration="1000" >
                         <h1 className='lg:text-3xl text-sm' style={{ paddingTop: '3rem', margin: 'auto 0', fontWeight: 'normal' }}>
                             <span className='mr-2 text-white'>I'M</span>
                             <span style={{ color: 'blueviolet', fontWeight: 'bold' }}>
